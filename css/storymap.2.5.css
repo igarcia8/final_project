@@ -232,12 +232,6 @@ section {
     text-decoration: none;
 }
 
-/*support video in IE 8 and 9*/
-
-video {
-    display: block;
-}
-
 .storymap-scroll-down {
     cursor: pointer;
     z-index: 1001;
@@ -340,4 +334,8 @@ nav .navbar-brand {
 .btn:hover {
     color: rgba(0, 117, 255, 0.6);
     text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
